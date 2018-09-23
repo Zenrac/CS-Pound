@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="The Discord bot for all your ChickenSmoothie needs.">
+    <meta name="keywords" content="discord, bot, chicken, smoothie, cs, chickensmoothie, tailstar, us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CS Pound - Never need to check links again</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&subset=latin-ext,vietnamese,latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#ffc40d">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="hero">
+        <img class="logo" src="assets/images/logo.png" width="100" height="100" alt="CS Pound Logo">
+        <h1 class="hero__title">CS Pound</h1>
+        <p class="hero__description">The Discord bot for all your ChickenSmoothie needs</p>
+    </div>
+	<div id="slider">
+		<!-- Loading Screen -->
+		<div data-u="loading" class="slider-spin">
+			<img src="assets/images/spin.svg" />
+		</div>
+		<div data-u="slides" id="slides">
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/1.png" />
+				<div data-u="caption" data-t="0" id="slide-0">Check pound opening times!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/2.png" />
+				<div data-u="caption" data-t="1" id="slide-1">View Pet Information!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/3.png" />
+				<div data-u="caption" data-t="2" id="slide-2">Or view as a screenshot!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/4.png" />
+				<div data-u="caption" data-t="3" id="slide-3">Or just the pet image!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/5.png" />
+				<div data-u="caption" data-t="4" id="slide-4">Showcase some Oekaki art!</div>
+			</div>
+			<div data-fillmode="5" data-b="0" data-p="170.00">
+				<img data-u="image" src="assets/images/6.png" />
+				<div data-u="caption" data-t="5" id="slide-5">Remind yourself for an event!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/7.png" />
+				<div data-u="caption" data-t="6" id="slide-6">Setup a reminder for when the pound opens!</div>
+			</div>
+			<div data-fillmode="5" data-p="170.00">
+				<img data-u="image" src="assets/images/8.png" />
+				<div data-u="caption" data-t="7" id="slide-7">Check out some of the bot statistics!</div>
+			</div>
+		</div>
+		<!-- Bullet Navigator -->
+		<div data-u="navigator" class="slider-circles" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+			<div data-u="prototype" class="i" style="width:16px;height:16px;">
+				<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;"><circle class="b" cx="8000" cy="8000" r="5800"></circle></svg>
+			</div>
+		</div>
+		<!-- Arrow Navigator -->
+		<div data-u="arrowleft" class="slider-arrows" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+			<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;"><polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline></svg>
+		</div>
+		<div data-u="arrowright" class="slider-arrows" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+			<svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;"><polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline></svg>
+		</div>
+	</div>
+    <div class="wrapper">
+        <div class="callout">
+            <a href="https://discordapp.com/oauth2/authorize?client_id=407151634544590849&scope=bot&permissions=268946496" class="button--primary">Invite!</a>
+        </div>
+        <div class="feature">
+			<div class="feature__item">
+                <h3 class="section__title">Auto Remind</h3>
+                <p>Automatically ping you at a specified time before the pound opens.</p>
+            </div>
+            <div class="feature__item">
+                <h3 class="section__title">Image</h3>
+                <p>Displays pet image and rarity from the given link.</p>
+            </div>
+            <div class="feature__item">
+                <h3 class="section__title">Oekaki</h3>
+                <p>Displays Oekaki drawing and stats from the given link.</p>
+            </div>
+            <div class="feature__item">
+                <h3 class="section__title">Pet</h3>
+                <p>Displays pet image as well as pet information from the given link.</p>
+            </div>
+            <div class="feature__item">
+                <h3 class="section__title">Time</h3>
+                <p>Displays the time before the pound opens or if it's already open.</p>
+            </div>
+            <div class="feature__item">
+                <h3 class="section__title">Remindme</h3>
+                <p>Legacy form of Auto Remind, where you set a time and will ping you when the time is up.</p>
+            </div>
+        </div>
+    </div>
+    <div class="changelog">
+        <div class="wrapper">
+            <h3 class="section__title">Changelog</h3>
+            <div class="changelog__item">
+                <div class="changelog__meta">
+                    <h4 class="changelog__title">v1.8</h4>
+                    <small class="changelog__date">30/06/2018</small>
+                </div>
+                <div class="changelog__detail">
+                    <ul>
+                        <li>Added check to make inputted Auto Remind is valid</li>
+                        <li>Changed help file to be placed in an external file</li>
+                        <li>Improved ,image command to include name, adoption date and rarity</li>
+                        <li>Removed ,pet2 command</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="changelog__item">
+                <div class="changelog__meta">
+                    <h4 class="changelog__title">v1.7.2</h4>
+                    <small class="changelog__date">26/06/2018</small>
+                </div>
+                <div class="changelog__detail">
+                    <ul>
+                        <li>Changed warning reminder to be placed at bottom of the embed</li>
+                        <li>Fixed Auto Remind suddenly not reminding</li>
+                        <li>Fixed Oekaki command not working</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="changelog__item">
+                <div class="changelog__meta">
+                    <h4 class="changelog__title">v1.7.1</h4>
+                    <small class="changelog__date">21/06/2018</small>
+                </div>
+                <div class="changelog__detail">
+                    <ul>
+                        <li>Added check whether bot has 'Manage Roles' permission</li>
+                        <li>Changed using Requests library to AIOHTTP library</li>
+                        <li>Fixed bot crashing issues (Maybe)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="changelog__callout">
+                <a href="changelog.txt" class="button--secondary">Checkout Full Log</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/slider.min.js"></script>
+	<script type="text/javascript">slider_init();</script>
+</body>
+
+</html>
